@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-// import { connect } from 'react-redux';
-// import { withFirebase } from 'react-redux-firebase'
+
 import { Menu, Container, Button } from 'semantic-ui-react';
-// import { NavLink, Link, withRouter } from 'react-router-dom';
-// import SignedOutMenu from '../Menus/SignedOutMenu';
-// import SignedInMenu from '../Menus/SignedInMenu';
-//import { openModal } from '../../modals/modalActions'
+
 
 // const actions = {
 //   openModal
@@ -38,7 +34,7 @@ class NavBar extends Component {
             <Menu inverted fixed="top">
               <Container>
                 <Menu.Item header>
-                  <img src="assets/logo.png" alt="logo" />
+                  <img src="/assets/logo.png" alt="logo" />
                   Event_Party
                 </Menu.Item>
                 <Menu.Item name="Events" />
